@@ -1,0 +1,16 @@
+.header{
+	height:200px;
+	background-color: #4682B4;
+	margin-bottom:100px;
+}
+.content{
+	width:1200px;
+	margin: 0 auto;
+	height:600px;
+	background-color: #B0E0E6;
+}
+.footer{
+	height:200px;
+	margin-top:150px;
+	background-color: #00008B;
+}
