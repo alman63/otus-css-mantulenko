@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 1440px;
+}
+#logo{
+	background-image: url('../img/inside.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 1065px;
+	height: 630px;
+	margin:135px 188px 135px 187px;
+	padding: 137px 254px 138px 254px;
+}
+
+.logo-box{
+	background-color: #fff;
+	width: 557px;
+	height: 355px;
+	margin: 0 auto;
+}
