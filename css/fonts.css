@@ -37,14 +37,18 @@ span {
 	font-family: 'Butler', serif;
 	font-weight: 400;
 	font-size: 87px;
-	line-height: 21px;
+	line-height: 104px;
+	text-align: center;
 }
 
 .section-description {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 104px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 22px;
+
 }
 
 .biography-name {
