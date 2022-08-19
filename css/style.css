@@ -1,0 +1,94 @@
+body {
+	font-family: 'Butler', serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: normal;
+}
+
+blockquote {
+	font-family: 'Butler', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+span {
+	font-family: 'Roboto', serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+
+.designers-description {
+	font-family: 'Roboto', serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #636363;
+}
+
+.page-title {
+	font-family: 'Butler', serif;
+	font-weight: 400;
+	font-size: 87px;
+	line-height: 21px;
+}
+
+.section-description {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 104px;
+}
+
+.biography-name {
+	font-family: 'Butler', sans-serif;
+	font-weight: 400;
+	font-size: 87px;
+	line-height: 104px;
+}
+
+h3.designers-name {
+	font-family: 'Roboto', serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+
+.designers-name {
+	font-family: 'Roboto', serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.testimonials {
+	font-family: 'Roboto', serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.testimonials-content {
+	font-family: 'Butler', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+.strong_points {
+	font-family: 'Butler', sans-serif;
+	font-weight: 400;
+	font-size: 92px;
+	line-height: 110px;
+}
+
+.li-strong_points {
+	font-family: 'Butler', sans-serif;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 41px;
+	list-style-type: none;
+}
