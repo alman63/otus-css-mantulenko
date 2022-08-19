@@ -11,12 +11,14 @@ body {
 	font-size: 16px;
 	line-height: normal;
 }
-blockquote{
+
+blockquote {
 	font-family: 'Butler', sans-serif;
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 38px;
 }
+
 span {
 	font-family: 'Roboto', serif;
 	font-weight: 700;
@@ -25,7 +27,7 @@ span {
 	text-transform: capitalize;
 }
 
-.designers-description{
+.designers-description {
 	font-family: 'Roboto', serif;
 	font-weight: 500;
 	font-size: 18px;
@@ -69,7 +71,7 @@ h3.designers-name {
 	line-height: 19px;
 }
 
-.testimonials{
+.testimonials {
 	font-family: 'Roboto', serif;
 	font-weight: 700;
 	font-size: 16px;
