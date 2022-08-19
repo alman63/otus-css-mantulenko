@@ -1,8 +1,10 @@
+:root {
+	
+}
+
 body {
-	font-family: 'Butler', serif;
-	font-weight: 400;
+	font-family: 'Butler', 'Arial', 'Verdana', 'Times New Roman' sans-serif;
 	font-size: 16px;
-	line-height: normal;
 }
 
 blockquote {
