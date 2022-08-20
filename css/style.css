@@ -1,96 +1,97 @@
-:root {
-	
+html {
+	font-size: 16px;
+	line-height: 1.2;
 }
 
 body {
 	font-family: 'Butler', 'Arial', 'Verdana', 'Times New Roman' sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 }
 
 blockquote {
 	font-family: 'Butler', sans-serif;
 	font-weight: 400;
-	font-size: 32px;
-	line-height: 38px;
+	font-size: 2rem;
+	line-height: 1.18;
 }
 
 span {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 1rem;
+	line-height: 1.18;
 	text-transform: capitalize;
 }
 
 .designers-description {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 1.125rem;
+	line-height: 1.16;
 	color: #636363;
 }
 
 .page-title {
-	font-family: 'Butler', serif;
+	font-family: 'Butler', sans-serif;
 	font-weight: 400;
-	font-size: 87px;
-	line-height: 21px;
+	font-size: 5.44rem;
+	line-height: 1.2;
 }
 
 .section-description {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 18px;
-	line-height: 104px;
+	font-size: 1.125rem;
+	line-height: 1.16;
 }
 
 .biography-name {
 	font-family: 'Butler', sans-serif;
 	font-weight: 400;
-	font-size: 87px;
-	line-height: 104px;
+	font-size: 5.44rem;
+	line-height: 1.2;
 }
 
 h3.designers-name {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 1rem;
+	line-height: 1.19;
 	text-transform: uppercase;
 }
 
 .designers-name {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 1rem;
+	line-height: 1.19;
 }
 
 .testimonials {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 1rem;
+	line-height: 1.19;
 }
 
 .testimonials-content {
 	font-family: 'Butler', sans-serif;
 	font-weight: 400;
-	font-size: 32px;
-	line-height: 38px;
+	font-size: 2rem;
+	line-height: 1.18;
 }
 
 .strong_points {
 	font-family: 'Butler', sans-serif;
 	font-weight: 400;
-	font-size: 92px;
-	line-height: 110px;
+	font-size: 5.75rem;
+	line-height: 1.2;
 }
 
 .li-strong_points {
 	font-family: 'Butler', sans-serif;
 	font-weight: 400;
-	font-size: 34px;
-	line-height: 41px;
+	font-size: 2.12rem;
+	line-height: 1.2;
 	list-style-type: none;
 }
