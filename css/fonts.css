@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Light'), local('Butler-Light'), url('../fonts/Butlerlight.woff2') format('woff2'), url('../fonts/Butlerlight.woff') format('woff'), url('../fonts/Butlerlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler UltraLight'), local('Butler-UltraLight'), url('../fonts/Butlerultralight.woff2') format('woff2'), url('../fonts/Butlerultralight.woff') format('woff'), url('../fonts/Butlerultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Medium'), local('Butler-Medium'), url('../fonts/Butlermedium.woff2') format('woff2'), url('../fonts/Butlermedium.woff') format('woff'), url('../fonts/Butlermedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler'), url('../fonts/Butler.woff2') format('woff2'), url('../fonts/Butler.woff') format('woff'), url('../fonts/Butler.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
