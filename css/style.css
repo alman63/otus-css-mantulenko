@@ -31,12 +31,15 @@ span {
 	font-weight: 400;
 	font-size: 5.44rem;
 	line-height: 1.2;
+	text-align: center;
 }
 .section-description {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 1.125rem;
 	line-height: 1.16;
+	text-align: center;
+	margin-top: 22px;
 }
 .biography-name {
 	font-family: 'Butler', sans-serif;

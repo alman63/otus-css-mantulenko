@@ -11,14 +11,15 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	width: 1065px;
+	width: 1065px;                   
 	height: 630px;
-	margin:135px 188px 135px 187px;
-	padding: 137px 254px 138px 254px;
+	margin: 135px auto;
+	padding-top: 136px;
 }
 .logo-box {
 	background-color: #fff;
 	width: 557px;
 	height: 355px;
 	margin: 0 auto;
+	padding-top:120px;
 }
