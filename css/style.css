@@ -8,7 +8,7 @@ body {
 }
 blockquote {
 	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 2rem;
 	line-height: 1.18;
 }
@@ -28,7 +28,7 @@ span {
 }
 .page-title {
 	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 5.44rem;
 	line-height: 1.2;
 	text-align: center;
@@ -43,7 +43,7 @@ span {
 }
 .biography-name {
 	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 5.44rem;
 	line-height: 1.2;
 }
@@ -62,25 +62,31 @@ h3.designers-name {
 }
 .testimonials {
 	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.19;
+}
+.testimonials span {
+	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
 	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.19;
 }
 .testimonials-content {
 	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 2rem;
 	line-height: 1.18;
 }
 .strong_points {
 	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 5.75rem;
 	line-height: 1.2;
 }
 .li-strong_points {
 	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 2.12rem;
 	line-height: 1.2;
 	list-style-type: none;
