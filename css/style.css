@@ -11,4 +11,26 @@ body {
 	font-family: 'Butler', 'Times New Roman', serif;
 	font-size: 1rem;
 }
-
+main {
+	max-width: 1440px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.wrapper {
+	margin: 135px auto 135px;
+	width: 1065px;
+	height: 630px;
+	position: relative;
+}
+.logo {
+	
+}
+.logo-box {
+	position: absolute;
+	background-color: #fff;
+	width: 557px;
+	height: 355px;
+	top: 137px;
+	left: 254px;
+	z-index: 1;
+}
