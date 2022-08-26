@@ -10,20 +10,21 @@
 body {
 	font-family: 'Butler', 'Times New Roman', serif;
 	font-size: 1rem;
+	background: #fff;
 }
 main {
 	max-width: 1440px;
-	background-color: #fff;
 	margin: 0 auto;
+}
+#logo {
+	height: 100vh ;
 }
 .wrapper {
 	margin: 135px auto 135px;
 	width: 1065px;
 	height: 630px;
+	padding-left: 44px;
 	position: relative;
-}
-.logo {
-	
 }
 .logo-box {
 	position: absolute;
@@ -31,6 +32,22 @@ main {
 	width: 557px;
 	height: 355px;
 	top: 137px;
-	left: 254px;
+	left: 298px;
 	z-index: 1;
+	text-align: center;
+}
+.page-title {
+	font-family: 'Butler', 'Times New Roman', serif;
+	font-weight: 300;
+	font-size: 5.44rem;
+	line-height: 1.2;
+	margin-top: 120px;
+}
+.section-description {
+	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 1.16;
+	margin-top: 20px;
+	padding-right: 20px;
 }
