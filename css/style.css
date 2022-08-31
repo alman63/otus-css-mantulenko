@@ -20,11 +20,9 @@ main {
 	position: relative;
 	height: 100vh;
 	min-height: 600px;
-	max-height: 900px;
+	max-height: 1200px;
 }
 .logo__img {
-	width: 74%;
-	height: 70%;
 	position: absolute;
 	top: 0;
 	left: 0;
