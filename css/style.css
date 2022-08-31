@@ -23,6 +23,10 @@ main {
 	max-height: 1200px;
 }
 .logo__img {
+	width: 74%;
+	height: 70%;
+	max-width: 1065px;
+	max-height: 630px;
 	position: absolute;
 	top: 0;
 	left: 0;
