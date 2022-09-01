@@ -1,3 +1,8 @@
+* {  
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 :root {
 	font-size: 16px;
 	line-height: 1.2;
@@ -5,89 +10,57 @@
 body {
 	font-family: 'Butler', 'Times New Roman', serif;
 	font-size: 1rem;
+	background: #fff;
 }
-blockquote {
-	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 200;
-	font-size: 2rem;
-	line-height: 1.18;
+main {
+	max-width: 1440px;
+	margin: 0 auto;
 }
-span {
-	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.18;
-	text-transform: capitalize;
+.section {
+	position: relative;
+	height: 100vh;
+	min-height: 600px;
+	max-height: 1200px;
 }
-.designers-description {
-	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-	font-weight: 500;
-	font-size: 1.125rem;
-	line-height: 1.16;
-	color: #636363;
+.logo__img {
+	width: 74%;
+	height: 70%;
+	max-width: 1065px;
+	max-height: 630px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	object-fit: cover;
+	z-index: 0;
+}
+.logo-box {
+	position: absolute;
+	background-color: #fff;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	text-align: center;
+	font-size: 5.43rem;
+	transform: translate(-50%, -50%);
+	padding: 1.45em 0.75em;
+	
 }
 .page-title {
 	font-family: 'Butler', 'Times New Roman', serif;
 	font-weight: 300;
-	font-size: 5.44rem;
-	line-height: 1.2;
-	text-align: center;
+	white-space: nowrap;
+	font-size: 1em;
 }
 .section-description {
+	position: absolute;
 	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
 	font-weight: 700;
-	font-size: 1.125rem;
-	line-height: 1.16;
-	text-align: center;
-	margin-top: 22px;
-}
-.biography-name {
-	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 300;
-	font-size: 5.44rem;
-	line-height: 1.2;
-}
-h3.designers-name {
-	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.19;
-	text-transform: uppercase;
-}
-.designers-name {
-	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.19;
-}
-.testimonials {
-	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-	font-weight: 400;
-	font-size: 1rem;
-	line-height: 1.19;
-}
-.testimonials span {
-	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.19;
-}
-.testimonials-content {
-	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 200;
-	font-size: 2rem;
-	line-height: 1.18;
-}
-.strong_points {
-	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 300;
-	font-size: 5.75rem;
-	line-height: 1.2;
-}
-.li-strong_points {
-	font-family: 'Butler', 'Times New Roman', serif;
-	font-weight: 300;
-	font-size: 2.12rem;
-	line-height: 1.2;
-	list-style-type: none;
+	left: 0;
+	right: 0;
+	font-size: 0.2em;
+	white-space: nowrap;
+	margin-top: 15px;
 }
