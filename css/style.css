@@ -18,18 +18,14 @@ main {
 }
 .section {
 	height: 100vh;
+	width: 1440px;
 	min-height: 600px;
 	max-height: 1200px;
 }
 /* blok logo */
-.section__logo {
+.logo {
 	position: relative;
-	height: 100vh;
-	min-height: 600px;
-	max-height: 1200px;
-	
 }
-
 .logo__img {
 	width: 74%;
 	height: 70%;
@@ -74,23 +70,20 @@ main {
 }
 /* blok biography */
 .left {
+	position: relative;
 	width: 50%;
 	float: left;
+	/* margin: 1%; */
 }
 .right {
+	position: relative;
 	width: 50%;
-	float: left;
+	min-height: 840px;
+	float: right;
 	padding-left: 115px;
 	padding-top: 185px;
+	/* margin: 1%; */
 }
-.clearfix {
-	clear: both;
-  }
-section#biography::after {
-	content: "";
-	display: block;
-	clear: both;
-  }
 .left__img {
 	display: block;
     margin: 0 4.5% auto 18.6%;
@@ -106,10 +99,31 @@ section#biography::after {
 	font-weight: 500;
 	font-size: 1.125rem;
 	color: #636363;
-	margin-top: 10px;
+	padding-top: 45px;
 }
 .right__text {
 	font-family: 'Butler', 'Times New Roman', serif;
 	font-weight: 200;
 	font-size: 2rem;
+	padding-top: 25px;
+}
+.right__rectangle {
+	display: block;
+	width: 14px;
+	height: 4px;
+	background-color: black;
+	margin-top: 65px;
+}
+.clearfix {
+	  clear: both;
+	}
+.right__name-page {
+	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+	font-weight: 700;
+	font-size: 1.125rem;
+	position: absolute;
+	right: 32px;
+	bottom: 42px;
+	transform: rotate(-90deg);
+	z-index: 1;
 }
