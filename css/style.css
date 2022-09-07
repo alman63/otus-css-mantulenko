@@ -82,7 +82,6 @@ main {
 	padding-top: 185px;
 }
 .left__img {
-	display: block;
     margin: 0 4.5% auto 18.6%;
 	object-fit: cover;
 }
