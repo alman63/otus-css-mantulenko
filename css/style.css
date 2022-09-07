@@ -70,10 +70,8 @@ main {
 }
 /* blok biography */
 .left {
-	position: relative;
 	width: 50%;
 	float: left;
-	/* margin: 1%; */
 }
 .right {
 	position: relative;
@@ -82,7 +80,6 @@ main {
 	float: right;
 	padding-left: 115px;
 	padding-top: 185px;
-	/* margin: 1%; */
 }
 .left__img {
 	display: block;
@@ -127,3 +124,4 @@ main {
 	transform: rotate(-90deg);
 	z-index: 1;
 }
+/* blok designers */
