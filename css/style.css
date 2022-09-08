@@ -18,7 +18,6 @@ main {
 }
 .section {
 	height: 100vh;
-	width: 1440px;
 	min-height: 600px;
 	max-height: 1200px;
 }
@@ -73,25 +72,22 @@ main {
 	position: relative;
 }
 .left {
-	width: 49%;
+	width: 50%;
 	float: left;
-	margin-left: 1%;
 }
 .right {
-	width: 49%;
-	float: left;
-	margin-right: 1%;
-	min-height: 840px;
-	padding-left: 115px;
-	padding-right: auto;
-	padding-top: 185px;
+	position: relative;
+	width: 50%;
+	float: right;
+	top: 21%;
+	left: 8%;
 }
 .left__img {
-    margin: 0 5% auto 17%;
+    margin: 0 4.5% auto 18.6%;
+	max-height: 840px;
 	object-fit: cover;
 }
 .right__name {
-	font-family: 'Butler', 'Times New Roman', serif;
 	font-weight: 300;
 	font-size: 5.44rem;
 }
@@ -100,10 +96,9 @@ main {
 	font-weight: 500;
 	font-size: 1.125rem;
 	color: #636363;
-	padding-top: 45px;
+	padding-top: 40px;
 }
 .right__text {
-	font-family: 'Butler', 'Times New Roman', serif;
 	font-weight: 200;
 	font-size: 2rem;
 	padding-top: 25px;
@@ -119,8 +114,8 @@ main {
 	font-weight: 700;
 	font-size: 1.125rem;
 	position: absolute;
-	right: 30px;
-	bottom: 100px;
+	right: 2%;
+	bottom: 11%;
 	transform: rotate(-90deg);
 	z-index: 1;
 }
