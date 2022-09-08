@@ -84,8 +84,8 @@ main {
 }
 .left__img {
     margin: 0 4.5% auto 18.6%;
-	max-height: 840px;
-	object-fit: cover;
+	max-width: 100%;
+	object-fit: contain;
 }
 .right__name {
 	font-weight: 300;
