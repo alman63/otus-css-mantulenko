@@ -17,14 +17,12 @@ main {
 	margin: 0 auto;
 }
 .section {
+	position: relative;
 	height: 100vh;
 	min-height: 600px;
 	max-height: 1200px;
 }
 /* blok logo */
-.logo {
-	position: relative;
-}
 .logo__img {
 	width: 74%;
 	height: 70%;
@@ -69,22 +67,37 @@ main {
 }
 /* blok biography */
 .biography {
-	position: relative;
+	min-height: 850px;
+}
+.wrap {
+	height: 100%;
+}
+@media (min-height: 900.1px) {
+	.wrap {
+		padding-top: 10%;
+	}
+  }
+.wrap-right {
+	position: absolute;
+	top: 20.5%;
+	left: 16%;
+	bottom: 19%;
 }
 .left {
 	width: 50%;
 	float: left;
+	height: 100%;
 }
 .right {
 	position: relative;
 	width: 50%;
 	float: right;
-	top: 21%;
-	left: 8%;
+	height: 100%;
 }
 .left__img {
     margin: 0 4.5% auto 18.6%;
 	max-width: 76.9%;
+	max-height: 100%;
 	object-fit: contain;
 }
 .right__name {
@@ -96,18 +109,18 @@ main {
 	font-weight: 500;
 	font-size: 1.125rem;
 	color: #636363;
-	padding-top: 40px;
+	padding-top: 10%;
 }
 .right__text {
 	font-weight: 200;
 	font-size: 2rem;
-	padding-top: 25px;
+	padding-top: 7%;
 }
 .right__rectangle {
 	width: 14px;
 	height: 4px;
 	background-color: black;
-	margin-top: 65px;
+	margin-top: 15%;
 }
 .name-page {
 	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
