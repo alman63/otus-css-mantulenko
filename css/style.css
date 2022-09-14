@@ -139,3 +139,58 @@ main {
   	clear: both;
 }
 /* blok designers */
+.design {
+	display: flex;
+	align-items: center;
+}
+.wrap_designers {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	width: 100%;
+}
+.design_item_1 {
+	width: 50%;
+}
+.wrap_item_2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	width: 100%;
+}
+.design_content {
+	padding-right: 3%;
+	padding-top: 4%;
+    padding-bottom: 13%;
+}
+.design_content_left {
+	padding-left: 25%;
+}
+h3.design_p {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.design_span {
+	font-weight: 700;
+}
+.design_p {
+	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+.design_img {
+    max-width: 100%;
+	max-height: 80%;
+	object-fit: contain;
+}
+.design_name_page {
+	font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+	font-weight: 700;
+	font-size: 1.125rem;
+	position: absolute;
+	right: 26%;
+	top: 15%;
+	transform: rotate(-90deg);
+	z-index: 1;
+}
