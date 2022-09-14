@@ -161,7 +161,7 @@ main {
 .design_content {
 	padding-right: 3%;
 	padding-top: 4%;
-    padding-bottom: 13%;
+	padding-bottom: 13%;
 }
 .design_content_left {
 	padding-left: 25%;
@@ -180,7 +180,7 @@ h3.design_p {
 	font-size: 1rem;
 }
 .design_img {
-    max-width: 100%;
+	max-width: 100%;
 	max-height: 80%;
 	object-fit: contain;
 }
