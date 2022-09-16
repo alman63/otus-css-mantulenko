@@ -187,7 +187,7 @@ h3.design_p {
     width: 100%;
     object-fit: contain;
 }
-@media (max-height: 799.9px) {
+@media (max-height: 839.9px) {
     .design_img {
         width: 80%;
         object-fit: contain;
