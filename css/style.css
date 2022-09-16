@@ -147,13 +147,13 @@ main {
     justify-content: center;
     align-items: baseline;
     width: 100%;
-    margin-top: -7%;
+    margin-top: -4%;
 }
 .design_item_1 {
     width: 50%;
 }
 .design_item_1:first-child {
-    padding-right: 3%;
+    padding-right: 6.5%;
 }
 .wrap_item_2 {
     display: flex;
