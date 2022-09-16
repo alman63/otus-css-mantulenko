@@ -147,12 +147,13 @@ main {
     justify-content: center;
     align-items: baseline;
     width: 100%;
+    margin-top: -7%;
 }
 .design_item_1 {
     width: 50%;
 }
 .design_item_1:first-child {
-    padding-right: 6%;
+    padding-right: 3%;
 }
 .wrap_item_2 {
     display: flex;
@@ -180,7 +181,7 @@ h3.design_p {
     width: 100%;
     object-fit: contain;
 }
-@media (max-height: 749.9px) {
+@media (max-height: 799.9px) {
     .design_img {
         width: 80%;
         object-fit: contain;
