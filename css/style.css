@@ -155,11 +155,17 @@ main {
 .design_item_1:first-child {
     padding-right: 6.5%;
 }
+.design_item_1:first-child > article > p {
+    padding-left: 29%;
+}
+.design_item_1:first-child > article > h3 {
+    padding-left: 29%;
+}
 .wrap_item_2 {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    width: 100%;
+    min-width: 23%;
 }
 .design_content {
     margin-right: 3%;
