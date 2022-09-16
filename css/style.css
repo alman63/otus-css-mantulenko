@@ -161,9 +161,7 @@ main {
     width: 100%;
 }
 .design_content {
-    padding-right: 3%;
-    padding-top: 4%;
-    padding-bottom: 13%;
+    margin-right: 3%;
 }
 h3.design_p {
     font-weight: 700;
@@ -179,8 +177,7 @@ h3.design_p {
     font-size: 1rem;
 }
 .design_img {
-    max-height: 80%;
-    max-width: 100%;
+    width: 100%;
     object-fit: contain;
 }
 .design_name_page {
