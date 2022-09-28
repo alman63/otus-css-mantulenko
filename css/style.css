@@ -297,13 +297,13 @@ h3.design_p {
     padding-top: 3%;
     align-self: center;
 }
-@media (max-height: 756.9px) {
-    .testimonials-content {
-        width: 70%;
-    }
-}
 @media (max-width: 1199.9px) {
     .testimonials-content {
         width: 55%;
+    }
+}
+@media (max-height: 756.9px) {
+    .testimonials-content {
+        width: 90%;
     }
 }
