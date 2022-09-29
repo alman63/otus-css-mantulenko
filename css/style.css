@@ -307,3 +307,58 @@ h3.design_p {
         width: 90%;
     }
 }
+/* blok strong_points */
+.strong_points {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.wrap_strong_points {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 2%;
+}
+.strong_points_element {
+    position: relative;
+    top: 30px;
+}
+.wrap_ul {
+    margin-left: 3%;
+    margin-right: 10%;
+}
+.strong_points_element_ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.strong_points_h3 {
+    font-weight: 400;
+    font-size: 5.75rem;
+    line-height: 1.2;
+}
+.li-strong_points {
+    font-weight: 300;
+    font-size: 2.06rem;
+    list-style-type: none;
+}
+.strong_points_name_page {
+    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    position: absolute;
+    left: 30%;
+    top: 17%;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+@media (max-height: 749.9px) {
+    .strong_points_name_page {
+        transform: none;
+        left: 40%;
+        top: 10%;
+    }
+}
