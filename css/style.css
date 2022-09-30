@@ -354,7 +354,7 @@ h3.design_p {
         top: 10%;
     }
 }
-/* @supports (display: flex) {
+@supports (display: flex) {
     .wrap_strong_points {
         display: flex;
         justify-content: flex-start;
@@ -365,4 +365,4 @@ h3.design_p {
         top: 50%;
         transform: translateY(-37%);
     }
-} */
+}
