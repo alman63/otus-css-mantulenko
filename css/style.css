@@ -244,14 +244,6 @@ h3.design_p {
     -webkit-writing-mode: sideways-lr;
     -ms-writing-mode: sideways-lr;
 }
-@supports (writing-mode: sideways-lr) {
-    .testimonials_a {
-        -webkit-writing-mode: sideways-lr;
-        -ms-writing-mode: sideways-lr;
-        writing-mode: sideways-lr;
-        transform: none;
-    }
-}
 .testimonials_a span {
     font-weight: 700;
     transform: rotate(-90deg);
@@ -305,5 +297,82 @@ h3.design_p {
 @media (max-height: 756.9px) {
     .testimonials-content {
         width: 90%;
+    }
+}
+/* blok strong_points */
+.strong_points {
+    overflow-x: auto;
+}
+.wrap_strong_points {
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-34%);
+}
+.strong_points_element {
+    display: inline-block;
+    vertical-align: middle;
+    width: 341px;
+    height: 525px;
+    object-fit: cover;
+    margin-right: 2%;
+}
+.strong_points_element_list {
+    width: fit-content;
+}
+.strong_points_element:last-child {
+    margin-right: 0;
+}
+.strong_points_element_list ul {
+    width: 545px;
+    font-weight: 300;
+    font-size: 2.06rem;
+    list-style-type: none;
+    padding: 5% 0 0 25%;
+}
+.strong_points_h3 {
+    position: absolute;
+    top: -26%;
+    right: 26%;
+    font-weight: 400;
+    font-size: 5.75rem;
+    line-height: 1.2;
+}
+.strong_points_name_page {
+    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    position: absolute;
+    left: 30%;
+    top: 17%;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+@media (max-height: 749.9px) {
+    .strong_points_name_page {
+        transform: none;
+        left: 40%;
+        top: 10%;
+    }
+}
+
+/* blok supports */
+@supports (display: flex) {
+    .wrap_strong_points {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .strong_points_element {
+        display: block;
+    }
+}
+@supports (writing-mode: sideways-lr) {
+    .testimonials_a {
+        -webkit-writing-mode: sideways-lr;
+        -ms-writing-mode: sideways-lr;
+        writing-mode: sideways-lr;
+        transform: none;
     }
 }
