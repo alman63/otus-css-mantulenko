@@ -320,6 +320,9 @@ h3.design_p {
 .strong_points_element_list {
     width: fit-content;
 }
+.strong_points_element:last-child {
+    margin-right: 0;
+}
 .strong_points_element_list ul {
     width: 545px;
     font-weight: 300;
