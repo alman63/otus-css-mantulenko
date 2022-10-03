@@ -376,3 +376,59 @@ h3.design_p {
         transform: none;
     }
 }
+
+/* mobile-development */
+@media (max-width: 767px) {
+    .menu {
+        height: 133px;
+    }
+    /* logo */
+    .logo {
+        max-height: 793px;
+    }
+    .logo-box {
+        width: 100%;
+        top: 0;
+        transform: translateX(-50%);
+        font-size: 4.375rem;
+    }
+    .logo__img {
+        width: 100%;
+        height: 90%;
+        max-height: 899px;
+    }
+    .page-title {
+        font-weight: 300;
+    }
+    .section-description {
+        font-weight: 500;
+        font-size: 0.257em;
+        margin-top: 40px;
+    }
+    /* biography */
+    .wrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right {
+        width: 100%;
+    }
+    .wrap-right {
+        display: flex;
+        flex-direction: column;
+        left: 7%;
+        bottom: 7%;
+    }
+    .right__name {
+        order: 1;
+        white-space: nowrap;
+    }
+    .right__name br {
+        display: none;
+    }
+    .right__rectangle {
+        display: none;
+    }
+    .right__description {
+    }
+}

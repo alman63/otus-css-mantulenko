@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Atlas Studio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,23 +15,29 @@
     </head>
     <body>
         <!-- navigation block -->
-        <!--<nav class="menu">
-			<a href="#logo">Atlas Studio</a>
-			<a href="#biography">Biography</a>
-			<a href="#designers">Designers</a>
-			<a href="#testimonials">Testimonials</a>
-			<a href="#strong_points">Strong points</a>	
-		</nav>
-		 end  navigation block -->
+        <nav class="menu">
+            <!-- <a href="#logo">Atlas Studio</a>
+            <a href="#biography">Biography</a>
+            <a href="#designers">Designers</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#strong_points">Strong points</a> -->
+        </nav>
+        <!-- end navigation block  -->
         <!-- main -->
         <main>
             <!-- logo section -->
             <section id="logo" class="section logo">
-                <img
-                    src="img/inside.png"
-                    alt="Atlas Studio"
-                    class="logo__img"
-                />
+                <picture>
+                    <source
+                        media="(max-width: 767px)"
+                        srcset="img/inside-mobile.png"
+                    />
+                    <img
+                        src="img/inside.png"
+                        alt="Atlas Studio"
+                        class="logo__img"
+                    />
+                </picture>
                 <div class="logo-box">
                     <h1 class="page-title">Atlas Studio</h1>
                     <h2 class="section-description">Modern Web Studio</h2>
