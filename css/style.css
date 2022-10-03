@@ -408,20 +408,30 @@ h3.design_p {
     /* biography */
     .wrap {
         display: flex;
+        flex: 2fr 1fr;
         flex-direction: column-reverse;
+        max-height: 926px;
     }
     .right {
         width: 100%;
     }
     .wrap-right {
         display: flex;
+        position: static;
         flex-direction: column;
-        left: 7%;
-        bottom: 7%;
+        padding-left: 0;
     }
     .right__name {
         order: 1;
         white-space: nowrap;
+        font-size: 4.875rem;
+    }
+    .right__name::before {
+        content: '-';
+    }
+    .right__text {
+        margin-bottom: 23%;
+        padding-left: 7%;
     }
     .right__name br {
         display: none;
@@ -430,5 +440,21 @@ h3.design_p {
         display: none;
     }
     .right__description {
+        width: 40%;
+        padding-top: 5%;
+        margin-bottom: 13%;
+        padding-left: 7%;
+    }
+    .left {
+        width: 100%;
+    }
+    .left__img {
+        margin: 0;
+        max-width: 100%;
+    }
+    .name-page {
+        transform: none;
+        right: 7%;
+        top: 2%;
     }
 }
