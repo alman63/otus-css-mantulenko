@@ -458,20 +458,64 @@ h3.design_p {
         top: 2%;
     }
     /* designers */
-    .design_content_big {
-        display: none;
+    .design {
+        height: 860px;
+    }
+    .design_content:last-child .design_p {
+        padding-left: 65px;
     }
     .design_img {
         width: 262px;
         height: 442px;
     }
     .wrap_designers {
-        margin-top: -34%;
+        margin-top: -37%;
         margin-left: 9%;
     }
     .design_name_page {
         transform: none;
-        right: 9%;
+        right: -142%;
         top: 5%;
+    }
+    /* testimonials */
+    .testimonials {
+        grid-template-columns: 100%;
+        grid-template-rows: 13% 62% 0%;
+    }
+    .wrap_center {
+        display: none;
+        grid-column: auto;
+    }
+    .wrap_testimonials {
+        grid-row: -1;
+        grid-column: auto;
+    }
+    .wrap_right {
+        grid-column: auto;
+        grid-row: 2 / 4;
+    }
+    .wrap_right_img {
+        width: 367px;
+        height: 333px;
+    }
+    .testimonials_name_page {
+        grid-column: auto;
+        align-self: start;
+        justify-self: end;
+        padding-right: 48px;
+        padding-top: 5px;
+    }
+    .wrap_a {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+        padding-right: 0;
+        gap: 10%;
+        padding-left: 30px;
+    }
+    .testimonials_a {
+        transform: none;
+        writing-mode: horizontal-tb;
     }
 }
