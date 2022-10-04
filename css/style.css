@@ -518,4 +518,22 @@ h3.design_p {
         transform: none;
         writing-mode: horizontal-tb;
     }
+    /* strong_points */
+    .strong_points_element_list ul {
+        width: 288px;
+        padding: 9% 0 0 34%;
+    }
+    .strong_points_element {
+        margin-top: 6%;
+    }
+    .strong_points_name_page {
+        transform: none;
+        top: 14%;
+        left: 249%;
+        width: 100%;
+    }
+    .strong_points_h3 {
+        top: -8%;
+        right: 10%;
+    }
 }
