@@ -378,13 +378,16 @@ h3.design_p {
 }
 
 /* mobile-development */
-@media (max-width: 767px) {
+@media (max-width: 767.9px) {
+    .section {
+        min-height: 800px;
+    }
     .menu {
-        height: 133px;
+        height: 126px;
     }
     /* logo */
     .logo {
-        max-height: 793px;
+        max-height: 800px;
     }
     .logo-box {
         width: 100%;
@@ -403,23 +406,24 @@ h3.design_p {
     .section-description {
         font-weight: 500;
         font-size: 0.257em;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     /* biography */
     .wrap {
         display: flex;
-        flex: 2fr 1fr;
         flex-direction: column-reverse;
-        max-height: 926px;
     }
     .right {
         width: 100%;
     }
     .wrap-right {
-        display: flex;
         position: static;
+        display: flex;
         flex-direction: column;
-        padding-left: 0;
+        left: 0;
+        bottom: 0;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .right__name {
         order: 1;
@@ -430,8 +434,11 @@ h3.design_p {
         content: '-';
     }
     .right__text {
-        margin-bottom: 23%;
-        padding-left: 7%;
+        padding-bottom: 100px;
+        padding-left: 15px;
+    }
+    .right__text br {
+        display: none;
     }
     .right__name br {
         display: none;
@@ -440,22 +447,30 @@ h3.design_p {
         display: none;
     }
     .right__description {
+        padding-top: 2%;
+        padding-bottom: 52px;
         width: 40%;
-        padding-top: 5%;
-        margin-bottom: 13%;
-        padding-left: 7%;
+        padding-left: 15px;
     }
     .left {
         width: 100%;
+        position: relative;
     }
     .left__img {
-        margin: 0;
         max-width: 100%;
+        max-height: 100%;
+        margin: 0;
+        position: absolute;
+        top: -10%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
     }
     .name-page {
         transform: none;
         right: 7%;
-        top: 2%;
+        top: 1%;
     }
     /* designers */
     .design {
@@ -474,7 +489,7 @@ h3.design_p {
     }
     .design_name_page {
         transform: none;
-        right: -142%;
+        right: -144%;
         top: 5%;
     }
     /* testimonials */
@@ -530,10 +545,27 @@ h3.design_p {
         transform: none;
         top: 14%;
         left: 249%;
-        width: 100%;
+        white-space: nowrap;
     }
     .strong_points_h3 {
         top: -8%;
         right: 10%;
+    }
+}
+/* addition */
+@media ((max-width: 767px) and (max-height: 870.1px)) {
+    .right__description {
+        padding-bottom: 0px;
+    }
+    .right__text {
+        padding-bottom: 20px;
+    }
+}
+@media ((max-width: 767px) and (max-height: 870.1px)) {
+    .right__description {
+        padding-bottom: 0px;
+    }
+    .right__text {
+        padding-bottom: 20px;
     }
 }
