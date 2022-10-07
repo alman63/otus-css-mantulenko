@@ -22,6 +22,21 @@ main {
     min-height: 600px;
     max-height: 1200px;
 }
+.wrap_menu {
+    display: none;
+}
+.slide {
+    overflow-x: auto;
+    width: 100%;
+    position: relative;
+    padding: 3% 0 8% 0;
+}
+.slide2 {
+    overflow-x: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 /* blok logo */
 .logo__img {
     width: 74%;
@@ -141,7 +156,6 @@ main {
 .design {
     display: flex;
     align-items: center;
-    overflow-x: auto;
 }
 .wrap_designers {
     display: flex;
@@ -158,6 +172,7 @@ main {
 }
 .design_content_big:first-child {
     margin-left: 0%;
+    margin-top: 5%;
 }
 .design_content_big:last-child {
     margin-right: 0;
@@ -192,7 +207,7 @@ h3.design_p {
     font-weight: 700;
     font-size: 1.125rem;
     position: absolute;
-    right: 26%;
+    right: 25%;
     bottom: 50%;
     transform: rotate(-90deg) translateX(290px);
     z-index: 1;
@@ -301,7 +316,6 @@ h3.design_p {
 }
 /* blok strong_points */
 .strong_points {
-    overflow-x: auto;
 }
 .wrap_strong_points {
     white-space: nowrap;
@@ -379,11 +393,35 @@ h3.design_p {
 
 /* mobile-development */
 @media (max-width: 767.9px) {
+    body {
+        position: relative;
+    }
     .section {
         min-height: 800px;
     }
+    .wrap_menu {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        bottom: 0;
+        gap: 1%;
+        border-top: solid 2px #000;
+        width: 100%;
+    }
     .menu {
         height: 126px;
+        display: block;
+    }
+    .menu_a {
+        display: initial;
+        font-weight: 400;
+        font-size: 2.5rem;
+        color: #000;
+        text-decoration: none;
+    }
+    .menu_a:active {
+        text-decoration: underline;
     }
     /* logo */
     .logo {
@@ -428,13 +466,13 @@ h3.design_p {
     .right__name {
         order: 1;
         white-space: nowrap;
-        font-size: 4.875rem;
+        font-size: 4.5rem;
     }
     .right__name::before {
         content: '-';
     }
     .right__text {
-        padding-bottom: 100px;
+        padding-bottom: 70px;
         padding-left: 15px;
     }
     .right__text br {
@@ -473,6 +511,9 @@ h3.design_p {
         top: 1%;
     }
     /* designers */
+    .slide {
+        position: static;
+    }
     .design {
         height: 860px;
     }
@@ -489,8 +530,8 @@ h3.design_p {
     }
     .design_name_page {
         transform: none;
-        right: -144%;
-        top: 5%;
+        right: 5%;
+        top: 8%;
     }
     /* testimonials */
     .testimonials {
@@ -534,9 +575,15 @@ h3.design_p {
         writing-mode: horizontal-tb;
     }
     /* strong_points */
+    .slide2 {
+        position: static;
+    }
     .strong_points_element_list ul {
-        width: 288px;
-        padding: 9% 0 0 34%;
+        width: 250px;
+        padding: 9% 0 0 16%;
+    }
+    .strong_points_element_list {
+        order: -1;
     }
     .strong_points_element {
         margin-top: 6%;
@@ -544,12 +591,16 @@ h3.design_p {
     .strong_points_name_page {
         transform: none;
         top: 14%;
-        left: 249%;
+        left: 66%;
         white-space: nowrap;
     }
     .strong_points_h3 {
-        top: -8%;
-        right: 10%;
+        top: -18%;
+        right: 5%;
+    }
+    .wrap_strong_points {
+        position: static;
+        transform: translateY(57%);
     }
 }
 /* addition */
