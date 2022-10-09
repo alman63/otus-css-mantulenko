@@ -25,6 +25,9 @@ main {
 .wrap_menu {
     display: none;
 }
+.menu_button {
+    display: none;
+}
 .slide {
     overflow-x: auto;
     width: 100%;
@@ -556,7 +559,7 @@ h3.design_p {
     }
     .design_content_big .design_img {
         max-width: 60vw;
-        width: auto;
+        width: 310px;
         height: 442px;
     }
     .design_img {
