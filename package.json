@@ -1,0 +1,22 @@
+{
+  "name": "otus-css-mantulenko",
+  "version": "1.0.0",
+  "description": "mantulenko a.v.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alman63/otus-css-mantulenko.git"
+  },
+  "keywords": [
+    "education"
+  ],
+  "author": "mantulenko a.v.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alman63/otus-css-mantulenko/issues"
+  },
+  "homepage": "https://github.com/alman63/otus-css-mantulenko#readme"
+}
