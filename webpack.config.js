@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/style.css',
     mode: 'development',
     output: {
-        filename: 'style.css',
+        filename: 'main.js',
     },
     module: {
         rules: [
