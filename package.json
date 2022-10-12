@@ -22,6 +22,7 @@
     },
     "homepage": "https://github.com/alman63/otus-css-mantulenko#readme",
     "devDependencies": {
+        "babel": "^6.23.0",
         "babel-loader": "^8.2.5",
         "css-loader": "^6.7.1",
         "html-webpack-plugin": "^5.5.0",
