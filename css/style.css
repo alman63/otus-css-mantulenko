@@ -350,12 +350,12 @@ h3.design_p {
     padding: 5% 0 0 25%;
 }
 .strong_points_h3 {
-    position: absolute;
-    top: -26%;
-    right: 26%;
     font-weight: 400;
     font-size: 5.75rem;
     line-height: 1.2;
+    margin-top: -24%;
+    padding-bottom: 5%;
+    padding-left: 10%;
 }
 .strong_points_name_page {
     font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
@@ -408,6 +408,9 @@ h3.design_p {
     }
 }
 @media (max-width: 767.9px) {
+    .main {
+        margin-bottom: 5rem;
+    }
     .section {
         min-height: 550px;
         height: calc(100vh - 5rem);
@@ -625,11 +628,10 @@ h3.design_p {
         height: 100%;
     }
     .strong_points_h3 {
-        top: 8%;
-        left: 6%;
         font-weight: 400;
         font-size: 5.75rem;
         line-height: 1.2;
+        margin-top: -45%;
     }
     .strong_points_element_list {
         order: -1;
@@ -686,9 +688,9 @@ h3.design_p {
 }
 @media (max-height: 799.9px) and (max-width: 767px) {
     .strong_points_h3 {
-        top: -2%;
-        left: 3%;
-        font-size: 3.75rem;
+        /* top: -2%;
+        left: 3%; */
+        /* font-size: 3.75rem; */
     }
     .strong_points_element_list ul {
         font-size: 1.7rem;
