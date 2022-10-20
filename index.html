@@ -13,16 +13,17 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <!-- navigation block -->
-        <!--<nav class="menu">
-			<a href="#logo">Atlas Studio</a>
-			<a href="#biography">Biography</a>
-			<a href="#designers">Designers</a>
-			<a href="#testimonials">Testimonials</a>
-			<a href="#strong_points">Strong points</a>	
-		</nav>
-		 end  navigation block -->
-        <!-- main -->
+        <nav class="menu">
+            <!-- <button type="button" class="menu_button">
+                <img src="img/line.png" alt="Кнопка «button»" />
+            </button> -->
+            <div class="menu wrap">
+                <a href="#biography" class="menu__a">Biography</a>
+                <a href="#designers" class="menu__a">Designers</a>
+                <a href="#testimonials" class="menu__a">Testimonials</a>
+                <a href="#strong-points" class="menu__a">Strong points</a>
+            </div>
+        </nav>
         <main>
             <!-- logo section -->
             <section id="logo" class="section logo">
@@ -31,30 +32,30 @@
                     alt="Atlas Studio"
                     class="logo__img"
                 />
-                <div class="logo-box">
-                    <h1 class="page-title">Atlas Studio</h1>
-                    <h2 class="section-description">Modern Web Studio</h2>
+                <div class="logo__box">
+                    <h1 class="logo__title">Atlas Studio</h1>
+                    <h2 class="logo__description">Modern Web Studio</h2>
                 </div>
             </section>
             <!-- end logo section -->
             <!-- Biography section -->
             <section id="biography" class="section biography">
-                <div class="wrap">
-                    <h2 class="name-page">Biography</h2>
-                    <div class="left">
+                <div class="biography wrap">
+                    <h2 class="biography__name">Biography</h2>
+                    <div class="biography_left">
                         <img
                             src="img/jared.png"
                             alt="Katya Mills"
-                            class="left__img"
+                            class="biography__img"
                         />
                     </div>
-                    <div class="right">
-                        <div class="wrap-right">
-                            <h3 class="right__name">
+                    <div class="biography_right">
+                        <div class="biography_right wrap">
+                            <h3 class="biography__h3">
                                 Katya<br />
                                 Mills
                             </h3>
-                            <p class="right__description">
+                            <p class="biography__description">
                                 Art Director<br />
                                 Scenography /Styling /Creative Photography
                                 /Design
@@ -62,9 +63,9 @@
                             <img
                                 src="img/rectangle.png"
                                 alt="rectangle"
-                                class="right__rectangle"
+                                class="biography__rectangle"
                             />
-                            <blockquote class="right__text">
+                            <blockquote class="biography__text">
                                 &ldquo;The more&nbsp;I deal with the work<br />
                                 as&nbsp;something that is&nbsp;my&nbsp;own,
                                 as<br />
@@ -76,54 +77,54 @@
                 </div>
             </section>
             <!-- end Biography section -->
-            <section id="designers" class="section design">
-                <h2 class="design_name_page">Designers</h2>
-                <div class="wrap_designers">
-                    <article class="design_content design_content_big">
+            <section id="designers" class="section designers">
+                <h2 class="designers__name">Designers</h2>
+                <div class="designers wrap">
+                    <article class="designers__article designers__article_big">
                         <img
                             src="img/spurwing.png"
                             alt="Jess Wonder"
-                            class="design_img"
+                            class="designers__img"
                         />
-                        <h3 class="design_p">Jess Wonder</h3>
-                        <p class="design_p">
-                            <span class="design_span">From/</span> Be more
+                        <h3 class="designers__p">Jess Wonder</h3>
+                        <p class="designers__p">
+                            <span class="designers__span">From/</span> Be more
                             flower
                         </p>
-                        <p class="design_p">
-                            <span class="design_span">Skills/</span>
+                        <p class="designers__p">
+                            <span class="designers__span">Skills/</span>
                             Design Strategy / Marketing
                         </p>
                     </article>
-                    <article class="design_content">
+                    <article class="designers__article">
                         <img
                             src="img/stil.png"
                             alt="Kameron Clein"
-                            class="design_img"
+                            class="designers__img"
                         />
-                        <h3 class="design_p">Kameron Clein</h3>
-                        <p class="design_p">
-                            <span class="design_span">From/</span> Be more
+                        <h3 class="designers__p">Kameron Clein</h3>
+                        <p class="designers__p">
+                            <span class="designers__span">From/</span> Be more
                             flower
                         </p>
-                        <p class="design_p">
-                            <span class="design_span">Skills/</span>
+                        <p class="designers__p">
+                            <span class="designers__span">Skills/</span>
                             Design Strategy / Marketing
                         </p>
                     </article>
-                    <article class="design_content">
+                    <article class="designers__article">
                         <img
                             src="img/stil2.png"
                             alt="Louisse Red"
-                            class="design_img"
+                            class="designers__img"
                         />
-                        <h3 class="design_p">Louisse Red</h3>
-                        <p class="design_p">
-                            <span class="design_span">From/</span> Be more
+                        <h3 class="designers__p">Louisse Red</h3>
+                        <p class="designers__p">
+                            <span class="designers__span">From/</span> Be more
                             flower
                         </p>
-                        <p class="design_p">
-                            <span class="design_span">Skills/</span>
+                        <p class="designers__p">
+                            <span class="designers__span">Skills/</span>
                             Design Strategy / Marketing
                         </p>
                     </article>
@@ -132,25 +133,25 @@
             <!-- end  designers section -->
             <!-- testimonials section -->
             <section id="testimonials" class="section testimonials">
-                <h2 class="testimonials_name_page">Testimonials</h2>
-                <div class="wrap_testimonials">
-                    <div class="wrap_a">
+                <h2 class="testimonials__name">Testimonials</h2>
+                <div class="testimonials wrap">
+                    <div class="testimonials__a wrap">
                         <a
-                            class="testimonials_a"
+                            class="testimonials__a"
                             href="http://www.whitepapers.com"
                         >
                             <span>Website</span><br />
                             www.whitepapers.com
                         </a>
                         <a
-                            class="testimonials_a"
+                            class="testimonials__a"
                             href="http://www.whitepapers.com"
                         >
                             <span>Creativity</span><br />
                             www.whitepapers.com
                         </a>
                         <a
-                            class="testimonials_a"
+                            class="testimonials__a"
                             href="http://www.whitepapers.com"
                         >
                             <span>Creativity</span><br />
@@ -158,16 +159,16 @@
                         </a>
                     </div>
                 </div>
-                <div class="wrap_center">
+                <div class="testimonials__center wrap">
                     <img
                         src="img/keghan.png"
                         alt="Keghan Crossland"
-                        class="testimonials_img"
+                        class="testimonials__center__img"
                     />
                 </div>
-                <div class="wrap_right">
-                    <div class="wrap_p">
-                        <p class="testimonials-content">
+                <div class="testimonials__right wrap">
+                    <div class="testimonials__p wrap">
+                        <p class="testimonials__content">
                             I&nbsp;just really want to&nbsp;do&nbsp;good work
                             and work with some great people, people who
                             challange me.
@@ -175,30 +176,30 @@
                         <img
                             src="img/sinitta.png"
                             alt="Sinitta Leunen"
-                            class="wrap_right_img"
+                            class="testimonials__right__img"
                         />
                     </div>
                 </div>
             </section>
             <!--  end testimonials section -->
             <!-- strong_points section -->
-            <section id="strong_points" class="section strong_points">
-                <h2 class="strong_points_name_page">Strong points</h2>
-                <div class="wrap_strong_points">
+            <section id="strong-points" class="section strong-points">
+                <h2 class="strong-points__name">Strong points</h2>
+                <div class="strong-points wrap">
                     <img
                         src="img/dawid.png"
                         alt="Dawid Liberadzki"
-                        class="strong_points_element"
+                        class="strong-points__img"
                     />
                     <img
                         src="img/avery.png"
                         alt="Avery Klein"
-                        class="strong_points_element"
+                        class="strong-points__img"
                     />
                     <div
-                        class="strong_points_element strong_points_element_list"
+                        class="strong-points__img strong-points__list"
                     >
-                        <h3 class="strong_points_h3">Strengths</h3>
+                        <h3 class="strong-points__h3">Strengths</h3>
                         <ul>
                             <li>Interiors</li>
                             <li>Outdoors</li>
@@ -217,7 +218,7 @@
                     <img
                         src="img/avery.png"
                         alt="Avery Klein"
-                        class="strong_points_element"
+                        class="strong-points__img"
                     />
                 </div>
             </section>
