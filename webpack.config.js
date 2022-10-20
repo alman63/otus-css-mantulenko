@@ -5,28 +5,31 @@ module.exports = {
     mode: 'development',
     output: {
         filename: 'main.js',
+        clean: true
     },
     module: {
         rules: [
             {
-                test: /\.(js)$/,
-                use: 'babel-loader',
+                test: /\.m?js$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                  loader: 'babel-loader',
+                  options: {
+                    presets: ['@babel/preset-env']
+                  }
+                }
             },
             {
-                test: /\.(css)$/,
-                use: ['style-loader', 'css-loader'],
-            },
-            {
-                test: /\.(scss)$/,
-                use: ['style-loader', 'css-loader', 'sass-loader'],
+                test: /.(css|scss|sass)$/,
+                use: ['style-loader', 'css-loader','sass-loader'],
             },
             {
                 test: /\.(jpeg|jpg|png)$/,
                 use: 'file-loader',
             },
             {
-                test: /\.(svg)$/,
-                use: 'svg-inline-loader',
+                test: /\.png/,
+                type: 'asset/resource'
             },
         ],
     },
