@@ -27,15 +27,21 @@
         <main>
             <!-- logo section -->
             <section id="logo" class="section logo">
-                <img
-                    src="img/inside.png"
-                    alt="Atlas Studio"
-                    class="logo__img"
-                />
                 <div class="logo__box">
                     <h1 class="logo__title">Atlas Studio</h1>
                     <h2 class="logo__description">Modern Web Studio</h2>
                 </div>
+                <picture>
+                    <source
+                        srcset="img/inside-mobile.png"
+                        media="(max-width: 767px)"
+                    />
+                    <img
+                        src="img/inside.png"
+                        alt="Atlas Studio"
+                        class="logo__img"
+                    />
+                </picture>
             </section>
             <!-- end logo section -->
             <!-- Biography section -->
@@ -43,11 +49,17 @@
                 <div class="biography__wrap">
                     <h2 class="header__h2 biography_header">Biography</h2>
                     <div class="biography_left">
-                        <img
-                            src="img/jared.png"
-                            alt="Katya Mills"
-                            class="biography__img"
-                        />
+                        <picture>
+                            <source
+                                media="(max-width: 767px)"
+                                srcset="img/jared-mobile.png"
+                            />
+                            <img
+                                src="img/jared.png"
+                                alt="Katya Mills"
+                                class="biography__img"
+                            />
+                        </picture>
                     </div>
                     <div class="biography_right">
                         <div class="biography_right_wrap">
@@ -173,11 +185,17 @@
                             and work with some great people, people who
                             challange me.
                         </p>
-                        <img
-                            src="img/sinitta.png"
-                            alt="Sinitta Leunen"
-                            class="testimonials__right__img"
-                        />
+                        <picture>
+                            <source
+                                media="(max-width: 767px)"
+                                srcset="img/sinitta-mobile.png"
+                            />
+                            <img
+                                src="img/sinitta.png"
+                                alt="Sinitta Leunen"
+                                class="testimonials__right__img"
+                            />
+                        </picture>
                     </div>
                 </div>
             </section>
