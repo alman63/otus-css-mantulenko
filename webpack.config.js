@@ -1,11 +1,12 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 
 module.exports = {
     entry: './src/index.js',
     mode: 'development',
     output: {
         filename: 'main.js',
-        clean: true
+        clean: true,
     },
     module: {
         rules: [
@@ -13,15 +14,15 @@ module.exports = {
                 test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
-                  loader: 'babel-loader',
-                  options: {
-                    presets: ['@babel/preset-env']
-                  }
-                }
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env'],
+                    },
+                },
             },
             {
                 test: /.(css|scss|sass)$/,
-                use: ['style-loader', 'css-loader','sass-loader'],
+                use: ['style-loader', 'css-loader', 'sass-loader'],
             },
             {
                 test: /\.(jpeg|jpg|png)$/,
@@ -29,7 +30,7 @@ module.exports = {
             },
             {
                 test: /\.png/,
-                type: 'asset/resource'
+                type: 'asset/resource',
             },
         ],
     },
