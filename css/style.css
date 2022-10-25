@@ -26,6 +26,12 @@ main {
     min-height: 600px;
     max-height: 1200px;
 }
+.header__h2 {
+    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    position: absolute;
+}
 .wrap_menu {
     display: none;
 }
@@ -143,11 +149,7 @@ main {
     background-color: black;
     margin-top: 15%;
 }
-.name-page {
-    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-    font-weight: 700;
-    font-size: 1.125rem;
-    position: absolute;
+.biography_header {
     right: 2%;
     bottom: 11%;
     transform: rotate(-90deg);
@@ -208,11 +210,7 @@ h3.design_p {
     height: 442px;
     object-fit: cover;
 }
-.design_name_page {
-    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-    font-weight: 700;
-    font-size: 1.125rem;
-    position: absolute;
+.designers_header {
     right: 25%;
     bottom: 50%;
     transform: rotate(-90deg) translateX(290px);
@@ -229,7 +227,7 @@ h3.design_p {
         width: 80%;
         object-fit: cover;
     }
-    .design_name_page {
+    .designers_header {
         position: absolute;
         right: 50%;
         bottom: 50%;
@@ -302,11 +300,9 @@ h3.design_p {
     height: 333px;
     object-fit: cover;
 }
-.testimonials_name_page {
+.testimonials_header {
+    position: static;
     grid-column: 2 / span 2;
-    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-    font-weight: 700;
-    font-size: 1.125rem;
     padding-top: 3%;
     align-self: center;
 }
@@ -358,18 +354,14 @@ h3.design_p {
     padding-bottom: 5%;
     padding-left: 10%;
 }
-.strong_points_name_page {
-    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
-    font-weight: 700;
-    font-size: 1.125rem;
-    position: absolute;
+.strong-points_header {
     left: 30%;
     top: 17%;
     transform: rotate(-90deg);
     z-index: 1;
 }
 @media (max-height: 749.9px) {
-    .strong_points_name_page {
+    .strong-points_header {
         transform: none;
         left: 40%;
         top: 10%;
@@ -538,7 +530,7 @@ h3.design_p {
         bottom: 0;
         margin: auto;
     }
-    .name-page {
+    .biography_header {
         transform: none;
         right: 4%;
         top: 4%;
@@ -572,7 +564,7 @@ h3.design_p {
     .design_img {
         max-width: 60vw;
     }
-    .design_name_page {
+    .designers_header {
         transform: none;
         right: 5%;
         top: 4%;
@@ -599,7 +591,7 @@ h3.design_p {
         width: 367px;
         height: 333px;
     }
-    .testimonials_name_page {
+    .testimonials_header {
         grid-column: auto;
         align-self: start;
         justify-self: end;
@@ -649,7 +641,7 @@ h3.design_p {
         padding-left: 0;
         width: 250px;
     }
-    .strong_points_name_page {
+    .strong-points_header {
         transform: none;
         top: 4%;
         right: 2%;
@@ -703,4 +695,3 @@ h3.design_p {
         font-size: 1.7rem;
     }
 }
-
