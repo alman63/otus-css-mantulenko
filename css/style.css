@@ -409,7 +409,7 @@ h3.design_p {
     }
 }
 @media (max-width: 767.9px) {
-    .main {
+    main {
         margin-bottom: 5rem;
     }
     .section {
