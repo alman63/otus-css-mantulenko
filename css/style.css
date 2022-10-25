@@ -35,6 +35,12 @@ main {
 .menu__wrap {
     display: none;
 }
+.section__designers__wrap {
+    overflow-x: auto;
+    width: 100%;
+    position: relative;
+    padding: 3% 0 8% 0;
+}
 /* blok logo */
 .logo__img {
     width: 74%;
@@ -517,8 +523,10 @@ h3.designer__p {
         top: 4%;
     }
     /* designers */
-    .designers__wrap {
+    .section__designers__wrap {
         position: static;
+    }
+    .designers__wrap {
         gap: 5%;
     }
     .designers {
