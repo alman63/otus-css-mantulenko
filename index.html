@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Atlas Studio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,27 +15,37 @@
     </head>
     <body>
         <!-- navigation block -->
-        <!--<nav class="menu">
-			<a href="#logo">Atlas Studio</a>
-			<a href="#biography">Biography</a>
-			<a href="#designers">Designers</a>
-			<a href="#testimonials">Testimonials</a>
-			<a href="#strong_points">Strong points</a>	
-		</nav>
-		 end  navigation block -->
+        <nav class="menu">
+            <!-- <button type="button" class="menu_button">
+                <img src="img/line.png" alt="Кнопка «button»" />
+            </button> -->
+            <div class="wrap_menu">
+                <a href="#biography" class="menu_a">Biography</a>
+                <a href="#designers" class="menu_a">Designers</a>
+                <a href="#testimonials" class="menu_a">Testimonials</a>
+                <a href="#strong_points" class="menu_a">Strong points</a>
+            </div>
+        </nav>
+        <!-- end navigation block  -->
         <!-- main -->
         <main>
             <!-- logo section -->
             <section id="logo" class="section logo">
-                <img
-                    src="img/inside.png"
-                    alt="Atlas Studio"
-                    class="logo__img"
-                />
                 <div class="logo-box">
                     <h1 class="page-title">Atlas Studio</h1>
                     <h2 class="section-description">Modern Web Studio</h2>
                 </div>
+                <picture>
+                    <source
+                        srcset="img/inside-mobile.png"
+                        media="(max-width: 767px)"
+                    />
+                    <img
+                        src="img/inside.png"
+                        alt="Atlas Studio"
+                        class="logo__img"
+                    />
+                </picture>
             </section>
             <!-- end logo section -->
             <!-- Biography section -->
@@ -42,11 +53,17 @@
                 <div class="wrap">
                     <h2 class="name-page">Biography</h2>
                     <div class="left">
-                        <img
-                            src="img/jared.png"
-                            alt="Katya Mills"
-                            class="left__img"
-                        />
+                        <picture>
+                            <source
+                                media="(max-width: 767px)"
+                                srcset="img/jared-mobile.png"
+                            />
+                            <img
+                                src="img/jared.png"
+                                alt="Katya Mills"
+                                class="left__img"
+                            />
+                        </picture>
                     </div>
                     <div class="right">
                         <div class="wrap-right">
@@ -56,8 +73,8 @@
                             </h3>
                             <p class="right__description">
                                 Art Director<br />
-                                Scenography /Styling /Creative Photography
-                                /Design
+                                Scenography / Styling / Creative Photography /
+                                Design
                             </p>
                             <img
                                 src="img/rectangle.png"
@@ -77,56 +94,58 @@
             </section>
             <!-- end Biography section -->
             <section id="designers" class="section design">
-                <h2 class="design_name_page">Designers</h2>
-                <div class="wrap_designers">
-                    <article class="design_content design_content_big">
-                        <img
-                            src="img/spurwing.png"
-                            alt="Jess Wonder"
-                            class="design_img"
-                        />
-                        <h3 class="design_p">Jess Wonder</h3>
-                        <p class="design_p">
-                            <span class="design_span">From/</span> Be more
-                            flower
-                        </p>
-                        <p class="design_p">
-                            <span class="design_span">Skills/</span>
-                            Design Strategy / Marketing
-                        </p>
-                    </article>
-                    <article class="design_content">
-                        <img
-                            src="img/stil.png"
-                            alt="Kameron Clein"
-                            class="design_img"
-                        />
-                        <h3 class="design_p">Kameron Clein</h3>
-                        <p class="design_p">
-                            <span class="design_span">From/</span> Be more
-                            flower
-                        </p>
-                        <p class="design_p">
-                            <span class="design_span">Skills/</span>
-                            Design Strategy / Marketing
-                        </p>
-                    </article>
-                    <article class="design_content">
-                        <img
-                            src="img/stil2.png"
-                            alt="Louisse Red"
-                            class="design_img"
-                        />
-                        <h3 class="design_p">Louisse Red</h3>
-                        <p class="design_p">
-                            <span class="design_span">From/</span> Be more
-                            flower
-                        </p>
-                        <p class="design_p">
-                            <span class="design_span">Skills/</span>
-                            Design Strategy / Marketing
-                        </p>
-                    </article>
+                <div class="slide">
+                    <h2 class="design_name_page">Designers</h2>
+                    <div class="wrap_designers">
+                        <article class="design_content design_content_big">
+                            <img
+                                src="img/spurwing.png"
+                                alt="Jess Wonder"
+                                class="design_img"
+                            />
+                            <h3 class="design_p">Jess Wonder</h3>
+                            <p class="design_p">
+                                <span class="design_span">From/</span> Be more
+                                flower
+                            </p>
+                            <p class="design_p">
+                                <span class="design_span">Skills/</span>
+                                Design Strategy / Marketing
+                            </p>
+                        </article>
+                        <article class="design_content">
+                            <img
+                                src="img/stil.png"
+                                alt="Kameron Clein"
+                                class="design_img"
+                            />
+                            <h3 class="design_p">Kameron Clein</h3>
+                            <p class="design_p">
+                                <span class="design_span">From/</span> Be more
+                                flower
+                            </p>
+                            <p class="design_p">
+                                <span class="design_span">Skills/</span>
+                                Design Strategy / Marketing
+                            </p>
+                        </article>
+                        <article class="design_content">
+                            <img
+                                src="img/stil2.png"
+                                alt="Louisse Red"
+                                class="design_img"
+                            />
+                            <h3 class="design_p">Louisse Red</h3>
+                            <p class="design_p">
+                                <span class="design_span">From/</span> Be more
+                                flower
+                            </p>
+                            <p class="design_p">
+                                <span class="design_span">Skills/</span>
+                                Design Strategy / Marketing
+                            </p>
+                        </article>
+                    </div>
                 </div>
             </section>
             <!-- end  designers section -->
@@ -172,53 +191,61 @@
                             and work with some great people, people who
                             challange me.
                         </p>
-                        <img
-                            src="img/sinitta.png"
-                            alt="Sinitta Leunen"
-                            class="wrap_right_img"
-                        />
+                        <picture>
+                            <source
+                                media="(max-width: 767px)"
+                                srcset="img/sinitta-mobile.png"
+                            />
+                            <img
+                                src="img/sinitta.png"
+                                alt="Sinitta Leunen"
+                                class="wrap_right_img"
+                            />
+                        </picture>
                     </div>
                 </div>
             </section>
             <!--  end testimonials section -->
             <!-- strong_points section -->
             <section id="strong_points" class="section strong_points">
-                <h2 class="strong_points_name_page">Strong points</h2>
-                <div class="wrap_strong_points">
-                    <img
-                        src="img/dawid.png"
-                        alt="Dawid Liberadzki"
-                        class="strong_points_element"
-                    />
-                    <img
-                        src="img/avery.png"
-                        alt="Avery Klein"
-                        class="strong_points_element"
-                    />
-                    <div
-                        class="strong_points_element strong_points_element_list"
-                    >
-                        <h3 class="strong_points_h3">Strengths</h3>
-                        <ul>
-                            <li>Interiors</li>
-                            <li>Outdoors</li>
-                            <li>Portraits</li>
-                            <li>Styling</li>
-                            <li>Events</li>
-                            <li>Architecture</li>
-                            <li>Design</li>
-                            <li>Celebrations</li>
-                            <li>Artistic</li>
-                            <li>Fashion</li>
-                            <li>Nature</li>
-                            <li>Creativity</li>
-                        </ul>
+                <div class="slide2">
+                    <h2 class="strong_points_name_page">Strong points</h2>
+                    <div class="wrap_strong_points">
+                        <img
+                            src="img/dawid.png"
+                            alt="Dawid Liberadzki"
+                            class="strong_points_element"
+                        />
+                        <img
+                            src="img/avery.png"
+                            alt="Avery Klein"
+                            class="strong_points_element"
+                        />
+                        <div
+                            class="strong_points_element strong_points_element_list"
+                        >
+                            <h3 class="strong_points_h3">Strengths</h3>
+                            <ul>
+                                <li>Interiors</li>
+                                <li>Outdoors</li>
+                                <li>Portraits</li>
+                                <li>Styling</li>
+                                <li>Events</li>
+                                <li>Architecture</li>
+                                <li>Design</li>
+                                <li>Celebrations</li>
+                                <li>Artistic</li>
+                                <li>Fashion</li>
+                                <li>Nature</li>
+                                <li>Creativity</li>
+                            </ul>
+                        </div>
+                        <img
+                            src="img/avery.png"
+                            alt="Avery Klein"
+                            class="strong_points_element"
+                        />
                     </div>
-                    <img
-                        src="img/avery.png"
-                        alt="Avery Klein"
-                        class="strong_points_element"
-                    />
                 </div>
             </section>
             <!--  end strong_points section -->
