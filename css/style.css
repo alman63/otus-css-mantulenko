@@ -519,14 +519,12 @@ h3.designer__p {
     /* designers */
     .designers__wrap {
         position: static;
+        gap: 5%;
     }
     .designers {
         align-items: flex-start;
         padding-top: 29%;
         height: 100%;
-    }
-    .designers__wrap {
-        gap: 5%;
     }
     .designer_big:first-child {
         margin-top: 0;
