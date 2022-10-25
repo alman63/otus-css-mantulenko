@@ -35,11 +35,17 @@ main {
 .menu__wrap {
     display: none;
 }
-.section__designers__wrap {
+.wrapper__designers {
     overflow-x: auto;
     width: 100%;
     position: relative;
     padding: 3% 0 8% 0;
+}
+.wrapper__strong-points {
+    overflow-x: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 /* blok logo */
 .logo__img {
@@ -523,7 +529,7 @@ h3.designer__p {
         top: 4%;
     }
     /* designers */
-    .section__designers__wrap {
+    .wrapper__designers {
         position: static;
     }
     .designers__wrap {
@@ -599,6 +605,9 @@ h3.designer__p {
         writing-mode: horizontal-tb;
     }
     /* strong-points */
+    .wrapper__strong-points {
+        position: static;
+    }
     .strong-points__wrap {
         position: static;
         transform: none;
