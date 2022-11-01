@@ -40,11 +40,6 @@ body {
     width: 100%;
     position: relative;
 }
-.wrapper {
-    overflow-x: auto;
-    position: relative;
-    width: 100%;
-}
 /* blok logo */
 .logo__img {
     width: 74%;
