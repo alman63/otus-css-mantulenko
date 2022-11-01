@@ -35,17 +35,15 @@ body {
 .menu__wrap {
     display: none;
 }
-.wrapper__designers {
+.wrapper {
     overflow-x: auto;
     width: 100%;
     position: relative;
-    padding: 3% 0 8% 0;
 }
-.wrapper__strong-points {
+.wrapper {
     overflow-x: auto;
     position: relative;
     width: 100%;
-    height: 100%;
 }
 /* blok logo */
 .logo__img {
@@ -102,7 +100,7 @@ body {
         transform: translate(-50%, -50%);
     }
 }
-.biography__right__wrap {
+.biography__right-wrap {
     position: absolute;
     left: 16%;
     bottom: 18%;
@@ -161,6 +159,9 @@ body {
 .designers {
     display: flex;
     align-items: center;
+}
+.designers__wrapper {
+    padding: 3% 0 8% 0;
 }
 .designers__wrap {
     display: flex;
@@ -318,6 +319,9 @@ h3.designer__p {
     top: 50%;
     transform: translateY(-34%);
 }
+.strong-points__wrapper {
+    height: 100%;
+}
 .strong-points__item {
     display: inline-block;
     vertical-align: middle;
@@ -471,7 +475,7 @@ h3.designer__p {
     .biography__right {
         width: 100%;
     }
-    .biography__right__wrap {
+    .biography__right-wrap {
         position: static;
         display: flex;
         flex-direction: column;
@@ -529,7 +533,7 @@ h3.designer__p {
         top: 4%;
     }
     /* designers */
-    .wrapper__designers {
+    .designers__wrapper {
         position: static;
     }
     .designers__wrap {
@@ -605,7 +609,7 @@ h3.designer__p {
         writing-mode: horizontal-tb;
     }
     /* strong-points */
-    .wrapper__strong-points {
+    .strong-points__wrapper {
         position: static;
     }
     .strong-points__wrap {
