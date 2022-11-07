@@ -1,5 +1,7 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const miniCss = require('mini-css-extract-plugin')
 
 module.exports = {
     entry: './src/index.js',
@@ -7,6 +9,7 @@ module.exports = {
     output: {
         filename: 'main.js',
         clean: true,
+        assetModuleFilename: 'asset/img/[name]_[hash][extnp]',
     },
     module: {
         rules: [
@@ -22,11 +25,11 @@ module.exports = {
             },
             {
                 test: /.(css|scss|sass)$/,
-                use: ['style-loader', 'css-loader', 'sass-loader'],
+                use: [miniCss.loader, 'css-loader', 'sass-loader'],
             },
             {
                 test: /\.(jpeg|jpg|png)$/,
-                use: 'file-loader',
+                use: 'asset/resource',
             },
             {
                 test: /\.png/,
@@ -39,6 +42,9 @@ module.exports = {
             hash: false,
             template: './src/index.html',
             filename: 'index.html',
+        }),
+        new miniCss({
+            filename: 'style.css',
         }),
     ],
     devServer: {

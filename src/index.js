@@ -1,3 +1,1 @@
-import './css/style.css'
-import './css/fonts.css'
-import './img/*.*'
+import './css/all.css'
