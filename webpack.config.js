@@ -10,7 +10,7 @@ module.exports = {
     output: {
         filename: 'main.js',
         clean: true,
-        assetModuleFilename: 'asset/img/[name]_[hash][extnp]',
+        assetModuleFilename: 'asset/img/[name]_[hash][ext]',
     },
     module: {
         rules: [
