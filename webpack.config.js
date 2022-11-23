@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const miniCss = require('mini-css-extract-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
@@ -50,6 +51,13 @@ module.exports = {
             patterns: [{ from: 'src/img', to: 'img' }],
         }),
     ],
+    optimization: {
+        minimizer: [
+            // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
+            // `...`,
+            new CssMinimizerPlugin(),
+        ],
+    },
     devServer: {
         compress: false,
         open: '/',
