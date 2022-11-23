@@ -11,7 +11,7 @@ module.exports = {
     output: {
         filename: 'main.js',
         clean: true,
-        assetModuleFilename: 'asset/img/[name]_[hash][ext]',
+        assetModuleFilename: 'asset/[name]_[hash][ext]',
         environment: {
             arrowFunction: false,
         },
@@ -29,12 +29,19 @@ module.exports = {
                 },
             },
             {
+                test: /\.html$/i,
+                loader: 'html-loader',
+            },
+            {
                 test: /.(css|scss|sass)$/,
                 use: [miniCss.loader, 'css-loader', 'sass-loader'],
             },
             {
                 test: /\.(jpeg|jpg|png)$/,
                 type: 'asset/resource',
+                generator: {
+                    filename: 'img/[name][hash][ext]',
+                },
             },
         ],
     },
@@ -46,9 +53,6 @@ module.exports = {
         }),
         new miniCss({
             filename: 'style.css',
-        }),
-        new CopyWebpackPlugin({
-            patterns: [{ from: 'src/img', to: 'img' }],
         }),
     ],
     optimization: {
