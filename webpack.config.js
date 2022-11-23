@@ -54,5 +54,6 @@ module.exports = {
         compress: false,
         open: '/',
         port: 3001,
+        watchFiles: '*.html',
     },
 }
