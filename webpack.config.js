@@ -11,6 +11,9 @@ module.exports = {
         filename: 'main.js',
         clean: true,
         assetModuleFilename: 'asset/img/[name]_[hash][ext]',
+        environment: {
+            arrowFunction: false,
+        },
     },
     module: {
         rules: [
